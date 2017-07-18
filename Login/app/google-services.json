@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "988979604643",
+    "firebase_url": "https://myclassselector.firebaseio.com",
+    "project_id": "myclassselector",
+    "storage_bucket": "myclassselector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988979604643:android:2d172e40204e4ca7",
+        "android_client_info": {
+          "package_name": "com.mixfinity.cees.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988979604643-bhe8qd9rlmb9brl4d56dr8nrsv8uu9ej.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBq7pU53NNfGLiASrskww3iCMsd-xaYoPU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

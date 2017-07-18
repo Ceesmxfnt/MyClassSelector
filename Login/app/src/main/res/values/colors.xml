@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#b53f41</color>
+    <color name="colorPrimaryTrans">#80b53f41</color>
+    <color name="colorPrimaryDark">#9f3032</color>
+    <color name="colorPrimaryDarkTrans">#809f3037</color>
+    <color name="colorAccent">#80000000</color>
+    <color name="colorPrimaryFont">#e34e42</color>
+    <color name="colorPrimaryFontBtn">#e34e42</color>
+    <color name="colorPrimaryInput">#000000</color>
+    <color name="colorSecondaryFontBtn">#000000</color>
+    <color name="colorPrimaryFontTrans">#80000000</color>
+    <color name="colorSecondaryFontTrans">#80e34e42</color>
+    <color name="colorError">#80ff0000</color>
+</resources>

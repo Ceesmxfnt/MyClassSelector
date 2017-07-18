@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mixfinity.cees.login.RegisterActivity"
+    tools:layout_editor_absoluteY="25dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </RelativeLayout>
+
+    <EditText
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimaryFont"
+        android:id="@+id/reg_input_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/reg_name"
+        android:inputType="textPersonName"
+        app:layout_constraintTop_toTopOf="@+id/guideline3"
+        android:layout_marginTop="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <EditText
+        android:id="@+id/reg_input_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input"
+        android:ems="12"
+        android:hint="@string/reg_email"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryFont"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/reg_input_name"
+        app:layout_constraintRight_toRightOf="@+id/reg_input_name"
+        app:layout_constraintTop_toBottomOf="@+id/reg_input_name" />
+
+    <EditText
+        android:id="@+id/reg_input_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/input"
+        android:ems="12"
+        android:hint="@string/reg_date"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColor="@color/colorPrimaryFont"
+        android:textColorHint="@color/colorAccent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/reg_input_email"
+        app:layout_constraintRight_toRightOf="@+id/reg_input_email"
+        app:layout_constraintTop_toBottomOf="@+id/reg_input_email" />
+
+    <EditText
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimaryFont"
+        android:id="@+id/reg_input_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/reg_pass"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/reg_input_date"
+        app:layout_constraintLeft_toLeftOf="@+id/reg_input_date"
+        app:layout_constraintRight_toRightOf="@+id/reg_input_date"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <EditText
+        android:background="@drawable/input"
+        android:padding="10dp"
+        android:textColorHint="@color/colorAccent"
+        android:textColor="@color/colorPrimaryFont"
+        android:id="@+id/reg_input_pass_conf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:hint="@string/reg_pass_confirm"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/reg_input_pass"
+        app:layout_constraintRight_toRightOf="@+id/reg_input_pass"
+        app:layout_constraintLeft_toLeftOf="@+id/reg_input_pass"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:background="@drawable/login_button"
+        android:textColor="@color/colorPrimaryFont"
+        android:id="@+id/reg_button_sbm"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:text="@string/reg_sbm"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="24dp"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/reg_button_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reg_already"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/reg_input_pass_conf"
+        android:layout_marginRight="0dp"
+        app:layout_constraintRight_toRightOf="@+id/reg_input_pass_conf"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/reg_input_pass_conf" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.2" />
+
+</android.support.constraint.ConstraintLayout>
