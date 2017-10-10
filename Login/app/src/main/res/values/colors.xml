@@ -5,6 +5,7 @@
     <color name="colorPrimaryDark">#9f3032</color>
     <color name="colorPrimaryDarkTrans">#809f3037</color>
     <color name="colorAccent">#80000000</color>
+    <color name="colorWhite">#ffffff</color>
     <color name="colorPrimaryFont">#e34e42</color>
     <color name="colorPrimaryFontBtn">#e34e42</color>
     <color name="colorPrimaryInput">#000000</color>

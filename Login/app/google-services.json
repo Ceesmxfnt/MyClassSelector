@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "988979604643-ui9akv045rh31mpfegc2bfhh7slg23tp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mixfinity.cees.login",
+            "certificate_hash": "f1a05c53edc46ad743c0dafca590ace7885475ad"
+          }
+        },
+        {
           "client_id": "988979604643-bhe8qd9rlmb9brl4d56dr8nrsv8uu9ej.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988979604643-bhe8qd9rlmb9brl4d56dr8nrsv8uu9ej.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
